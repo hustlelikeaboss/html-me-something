@@ -1,0 +1,167 @@
+main {
+    width: 100%;
+    margin: auto;
+}
+
+/****************************************************** 
+header
+******************************************************/
+header {
+    padding-top: 20px;
+    text-align: center;
+    background-color: #f6f4e5;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: #bd4f10;
+    font-family: 'Great Vibes', cursive;
+    line-height: 50px;
+    font-size: 60px;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+}
+
+h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-weight:100;
+    font-size: 12px;
+    line-height: 0px;
+    padding-bottom: 10px;
+    color: grey;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+ul li {
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: antiquewhite;
+}
+
+a {
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: #bd4f10;
+    display: inline-flex;
+}
+
+a:hover {
+    color: black;
+    background-color: #bd4f10;
+}
+
+/****************************************************** 
+article
+******************************************************/
+article {
+    max-width: 1024px;
+    margin: auto;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h2 {
+    color: #bd4f10;
+    font-style: italic;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+}
+
+.firstcharacter {
+  color: #bd4f10;
+  float: left;
+  font-family: Georgia;
+  font-size: 65px;
+  line-height: 50px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+.text-right {
+    float: right;
+    width: 50%;
+}
+
+.image-left {
+    width: 50%;
+}
+
+.text-left {
+    float:left;
+    width: 50%;
+}
+
+.image-right {
+    float:left;
+    width: 50%;
+}
+
+img {
+    display: block;
+    width: inherit;
+    margin: auto;
+    border: 20px solid antiquewhite;
+}
+
+hr { 
+    display: block;
+    color: #f6f4e5;
+    margin-top: 4em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    border-style: solid;
+    border-width: 50px;
+}
+
+/****************************************************** 
+footer
+******************************************************/
+footer {
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+    background-color: #f6f4e5; 
+}
+
+footer a {
+    padding: 0px 0px 0px 0px;
+    color: #d49931;
+}
+
+#credit {
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
